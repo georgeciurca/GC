@@ -203,7 +203,7 @@ body {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   overflow: hidden;
-  margin: 0px 10px;
+  margin: 7px;
   box-shadow: 0 2px 8px var(--green);
 }
 .my-projects li img {
@@ -416,6 +416,9 @@ form h2 {
     padding-top: 5rem;
     margin-top: 0 ;
   }
+  .about-h1, .page3, .my-projects, .contact {
+    padding-top: 7rem;
+  }
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
@@ -464,9 +467,8 @@ form h2 {
     border-radius: 6px;
     font-family: var(--font-family-roboto);
   }
-  .contact{
-    padding-top: 5rem;
-    margin-top: 0 ;
+  .about-h1, .page3, .my-projects, .contact {
+    padding-top: 7rem;
   }
 }
 
@@ -530,8 +532,7 @@ form h2 {
     border-radius: 6px;
     font-family: var(--font-family-roboto);
   }
-  .contact{
-    padding-top: 5rem;
-    margin-top: 0 ;
+  .about-h1, .page3, .my-projects, .contact {
+    padding-top: 7rem;
   }
 }
