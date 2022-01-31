@@ -406,6 +406,15 @@ form h2 {
     padding-top: 5rem;
     margin-top: 0 ;
   }
+  .about-img {
+    max-width: 350px;
+    margin: auto;
+    padding-top: 1rem;
+    box-shadow: 0px 0px 0px var(--green);
+  }
+  .about-h1, .page3, .my-projects, .contact {
+    padding-top: 7rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 850px) {
@@ -418,7 +427,13 @@ form h2 {
   }
   .about-h1, .page3, .my-projects, .contact {
     padding-top: 7rem;
-  }
+    }
+    .about-img {
+      max-width: 350px;
+      margin: auto;
+      padding-top: 1rem;
+      box-shadow: 0px 0px 0px var(--green);
+    }
 }
 
 @media (min-width: 451px) and (max-width: 768px) {
@@ -445,6 +460,13 @@ form h2 {
     width: 100%;
     margin: 10px auto;
     box-shadow: 0 2px 8px var(--green);
+  }
+
+  .about-img {
+    max-width: 350px;
+    margin: auto;
+    padding-top: 1rem;
+    box-shadow: 0px 0px 0px var(--green);
   }
 
   .my-projects li {
@@ -510,7 +532,9 @@ form h2 {
     display: flex;
     flex-direction: column;
   }
-
+  .about-img {
+    margin: auto;
+  }
   .my-projects li {
     display: flex;
     flex-direction: column;
