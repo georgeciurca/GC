@@ -382,6 +382,28 @@ form h2 {
   font-size: 1rem;
 }
 
+#thanks {
+  color: var(--blue);
+  background-color: var(--navy);
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#thanks a {
+  color: var(--blue);
+  text-decoration: none;
+  border: var(--green) 1px solid;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+#thanks h4 {
+  margin-bottom: 2rem;
+}
+#thanks a:hover {
+  background-color: var(--dark-slate);
+ }
+
 @media (min-width: 768px) and (max-width: 1600px) {
   .about-div {
     display: flex;
